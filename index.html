@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/effects.css">
+    <title>NJI Portfolio</title>
+</head>
+<body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    
+    <div class="nav-container">
+        <header>
+            <a href="index.html" class="logo">Najib Jonathan Ibrahim</a>
+
+            <nav>
+                <button class="ham">
+                    <!-- material icons https://material.io/resources/icons/ -->
+                    <span class="menuIcon material-icons">
+                      menu
+                    </span>
+                    <span class="xIcon material-icons">
+                      close
+                    </span>
+                  </button>
+                <ul class="menu">
+                    <li><a href="#featured" class="menuLink">Featured Project</a></li>
+                    <li><a href="#skills" class="menuLink">Skills</a></li>
+                    <li><a href="#portfolio" class="menuLink">Portfolio</a></li>
+                    <li><a href="#hire-me" class="menuLink">Hire Me</a></li>
+                    <li><a href="https://github.com/Nage3000" class="menuLink"><i class="fab fa-github">  GitHub</i></a></li>
+                </ul>
+                <ul class="menu2">
+                    <li><a href="#featured" class="menuLink2" >Featured Project</a></li>
+                    <li><a href="#skills" class="menuLink2" >Skills</a></li>
+                    <li><a href="#portfolio" class="menuLink2" >Portfolio</a></li>
+                    <li><a href="#hire" class="menuLink2" >Hire Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="social-header">
+            <ul>
+                <li><a href="https://github.com/Nage3000"><img src="images/githublogo.png" alt="github"></a></li>
+                <li id="git-cta">Check out my Github!</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="content">
+            <h1 class="stagger1">A Web Developer with Passion</h1>
+            <div class="meet stagger1">
+                <span>👇</span>
+                <p>Meet Najib</p>
+            </div>
+            <svg class="scroll stagger1" width="40" height="77" viewBox="0 0 40 77">
+                <g id="scroll" transform="translate(-253 -787)">
+                  <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(253 787)" fill="none" stroke="#fff" stroke-width="4">
+                    <rect width="40" height="77" rx="20" stroke="none"/>
+                    <rect x="2" y="2" width="36" height="73" rx="18" fill="none"/>
+                  </g>
+                  <circle class="circle" id="Ellipse_1" data-name="Ellipse 1" cx="11" cy="11" r="11" transform="translate(262 798)" fill="#fff"/>
+                </g>
+              </svg>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="hero-design" width="686" height="688" viewBox="0 0 686 688">
+            <g id="blockdesign" transform="translate(-935 -289)">
+              <rect class="square-anim" data-name="Rectangle 2" width="172" height="172" rx="19" transform="translate(1277 289)" fill="#293241"/>
+              <rect class="square-anim" data-name="Rectangle 10" width="172" height="172" rx="86" transform="translate(1277 461)" fill="#4289B3"/>
+              <rect class="square-anim" data-name="Rectangle 8" width="172" height="172" rx="19" transform="translate(1449 461)" fill="#471001"/>
+              <rect class="square-anim" data-name="Rectangle 5" width="172" height="172" rx="19" transform="translate(1277 633)" fill="#56698A"/>
+              <rect class="square-anim" data-name="Rectangle 3" width="172" height="172" rx="19" transform="translate(1107 461)" fill="#fff"/>
+              <rect class="square-anim" data-name="Rectangle 9" width="172" height="172" rx="86" transform="translate(1107 633)" fill="#EE6C4D"/>
+              <rect class="square-anim" data-name="Rectangle 7" width="172" height="172" rx="19" transform="translate(935 633)" fill="#293241" opacity="0.8"/>
+              <rect class="square-anim" data-name="Rectangle 4" width="172" height="172" rx="19" transform="translate(1107 805)" fill="#fff"/>
+            </g>
+          </svg>
+    </div>
+
+    <section class="featured" id="featured">
+        <div class="left">
+            <div class="inner transition2">
+                <p class="subtitle">Featured Project</p>
+                <a href="https://electricianmetrics.com/" class="featured-title">Electrician Metrics</a>
+
+                <p class="featured-desc">My own personal freelance website design and digital marketing company targeting small to medium sized electrical businesses.</p>
+                <a href="https://electricianmetrics.com/" class="live-link hvr-icon-wobble-horizontal">Live Link   <i class="fas fa-hand-point-right hvr-icon"></i></a>
+            </div>
+        </div>
+        <a href="https://electricianmetrics.com/" class="hvr-grow"><img class="right transition2" src="images/electricianmetrics.jpg" alt="Featured Project"></a>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="skills-container">
+            <ul>
+                <li class="transition2 hvr-float-shadow hvr-bob">
+                    <div class="icon-container one">
+                        <img src="images/Website Creator-bro.png" alt="Code Development">
+                    </div>
+                    <p class="skill-title"> &#60;HTML5 &#47; CSS &#47; JavaScript&#47;&#62;</p>
+                    <p class="featured-desc skill-desc">Coding websites from the ground up using the latest technologies. Experience writing with and without popular frameworks like Bootstrap, Sass, ReactJS, and jQuery. Backend development work done with Node.js and Firebase as well.</p>
+                </li>
+                <li class="transition2 hvr-float-shadow hvr-bob">
+                    <div class="icon-container two">
+                        <img src="images/Design team-bro.png" alt="UI/UX Icon">
+                    </div>
+                    <p class="skill-title">Wordpress Web Design and Ecommerce Focused</p>
+                    <p class="featured-desc skill-desc">Creating beautiful designs with the largest CMS in the world. Able to use popular web design technologies including Divi Themes and Elementor. Focused on creating websites that make clients more profitable, and more importantly, happier with their online presence.</p>
+                </li>
+                <li class="transition2 hvr-float-shadow hvr-bob">
+                    <div class="icon-container three">
+                        <img src="images/Team spirit-bro.png" alt="Team Meeting">
+                    </div>
+                    <p class="skill-title">Soft Skills</p>
+                    <p class="featured-desc skill-desc">A team player who enjoys hard work and working with others to achieve company goals. Years of experience working customer facing positions with dozens of new interactions each day.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-container transition3">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <p class="featured-title">Amazon.com Clone</p>
+                    <p class="subtitle">React JS built with full functionality - Front End and Back End</p>
+                    <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sint, molestias qui nihil accusamus praesentium vel tenetur quisquam quas rem.</p>
+                    <a href="https://clone-5511b.web.app/" class="live-link hvr-icon-wobble-horizontal">Live Link   <i class="fas fa-hand-point-right hvr-icon"></i></a>
+                    <p></p>
+                    <a href="https://github.com/Nage3000/Amazon-Clone" class="live-link hvr-icon-bounce">GitHub Repo <i class="fab fa-github hvr-icon"></i></a>
+                </div>
+            </div>
+            <a href="https://clone-5511b.web.app/"><img src="images/amazon-clone.jpg" alt="Amazon Clone" class="hvr-grow"></a>
+        </div>
+
+        <hr class="style-eight transition3">
+
+        <div class="portfolio-container transition3">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <p class="featured-title">Rock Bottom Whiskey Bar</p>
+                    <p class="subtitle">A bar for a discerning taste within a hidden tongue.</p>
+                    <p class="featured-desc">A restuarant website created for a high-end speakeasy-style bar located in New Jersey</p>
+                    <a href="https://boring-blackwell-4a4ba0.netlify.app/" class="live-link hvr-icon-wobble-horizontal">Live Link   <i class="fas fa-hand-point-right hvr-icon"></i></a>
+                    <p></p>
+                    <a href="https://github.com/Nage3000/Rock-Bottom-Whiskey-Bar" class="live-link hvr-icon-bounce">GitHub Repo <i class="fab fa-github hvr-icon"></i></a>
+                </div>
+            </div>
+            <a href="https://boring-blackwell-4a4ba0.netlify.app/"><img src="images/rockbottom-whiskey.jpg" alt="Rock Bottom Whiskey Bar" class="hvr-grow"></a>
+        </div>
+
+        <hr class="style-eight transition3">
+
+        <div class="portfolio-container transition3">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <p class="featured-title">Adventure Awaits</p>
+                    <p class="subtitle">A Mock Travel Company Landing Page</p>
+                    <p class="featured-desc">Built a website for the Loruki web application from the ground up using exclusively vanilla HTML and CSS. Designed utilities similar to Bootstrap that was reused throughout the project. </p>
+                    <a href="https://happy-raman-9f346a.netlify.app/" class="live-link hvr-icon-wobble-horizontal">Live Link   <i class="fas fa-hand-point-right hvr-icon"></i></a>
+                    <p></p>
+                    <a href="https://github.com/Nage3000/TRVL---Adventure-Awaits" class="live-link hvr-icon-bounce">GitHub Repo <i class="fab fa-github hvr-icon"></i></a>
+                </div>
+            </div>
+            <a href="https://happy-raman-9f346a.netlify.app/"><img src="images/adventure-awaits.jpg" alt="Adventure Awaits" class="hvr-grow"></a>
+        </div>
+
+        <hr class="style-eight transition3">
+
+        <div class="portfolio-container transition3">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <p class="featured-title">Loruki</p>
+                    <p class="subtitle">A Mock Website for a Web Application</p>
+                    <p class="featured-desc">Built a website for the Loruki web application from the ground up using exclusively vanilla HTML and CSS. Designed utilities similar to Bootstrap that was reused throughout the project. </p>
+                    <a href="https://admiring-brahmagupta-044cc4.netlify.app/index.html" class="live-link hvr-icon-wobble-horizontal">Live Link   <i class="fas fa-hand-point-right hvr-icon"></i></a>
+                    <p></p>
+                    <a href="https://github.com/Nage3000/Loruki-Tutorial" class="live-link hvr-icon-bounce">GitHub Repo <i class="fab fa-github hvr-icon"></i></a>
+                </div>
+            </div>
+            <a href="https://admiring-brahmagupta-044cc4.netlify.app/index.html"><img src="images/Loruki.jpg" alt="Loruki Web App" class="hvr-grow"></a>
+        </div>
+        
+    </section>
+
+    <section class="transition3 hire-me" id="hire-me">
+        <h2 id="hire">Work with Me!</h2>
+        <div class="contact-container">
+            <p id="about-me"><img src="images/profile pic.jpg" alt="pic of Najib Jonathan Ibrahim" id="profile-pic"> My name is Najib Jonathan Ibrahim and I've been building websites since I was a kid. I've created dozens of personal and professional websites for a large spectrum of clients on a freelance basis. I'm passionate Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab incidunt, accusantium numquam culpa voluptate perferendis dolores corrupti sed expedita omnis neque tempore natus illum fugit autem blanditiis! Aut, esse earum iusto nostrum suscipit molestias placeat ullam rem aliquam fugit eaque facere amet consequuntur error consequatur voluptates asperiores? Quisquam, excepturi in!</p>
+
+            <form name="contact" method="POST" data-netlify="true" id="contact">
+                <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+                <input name="email" type="email" class="feedback-input" placeholder="Email" />
+                <textarea name="message" class="feedback-input" placeholder="Messge Me"></textarea>
+                <input type="submit" value="SUBMIT"/>
+                <p id="success" class="hidden success">Thanks for the message! I'll be getting back to you shortly</p>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script src="animations.js"></script>
+    <script src="formSubmission.js"></script>
+    <script src="top-page-button.js"></script>
+    <script src="hamburger.js"></script>
+</body>
+</html>
+
+<!-- Color Palletes -->
+<!-- #3D5A80 / #98C1D9 / #E0FBFC / #EE6C4D / #293241 -->
