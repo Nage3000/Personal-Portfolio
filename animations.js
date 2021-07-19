@@ -63,7 +63,9 @@ gsap.from('.transition3', {
 //////////////////////////////////////
 //SMOOTH SCROLLING
 
-document.querySelector('.menuLink2--1').addEventListener('click', function (e) {
+const menuLinks2 = document.querySelectorAll('.menuLink2');
+
+const smoothScroll = function(e){
   e.preventDefault();
 
   // Matching strategy
@@ -71,31 +73,6 @@ document.querySelector('.menuLink2--1').addEventListener('click', function (e) {
     const id = e.target.getAttribute('href');
     document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
   }
-});
-document.querySelector('.menuLink2--2').addEventListener('click', function (e) {
-  e.preventDefault();
+};
 
-  // Matching strategy
-  if (e.target.classList.contains('menuLink2')) {
-    const id = e.target.getAttribute('href');
-    document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
-  }
-});
-document.querySelector('.menuLink2--3').addEventListener('click', function (e) {
-  e.preventDefault();
-
-  // Matching strategy
-  if (e.target.classList.contains('menuLink2')) {
-    const id = e.target.getAttribute('href');
-    document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
-  }
-});
-document.querySelector('.menuLink2--4').addEventListener('click', function (e) {
-  e.preventDefault();
-
-  // Matching strategy
-  if (e.target.classList.contains('menuLink2')) {
-    const id = e.target.getAttribute('href');
-    document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
-  }
-});
+menuLinks2.forEach(addEventListener('click', smoothScroll));
