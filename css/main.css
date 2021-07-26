@@ -106,7 +106,7 @@ header .logo {
   right: 1rem;
   width: 3rem;
   height: 3rem;
-  border: black solid 1px;
+  border: black solid 0.5px;
   background: white;
   cursor: pointer;
 }
@@ -269,7 +269,7 @@ li {
 }
 .hire-me #about-me {
   color: white;
-  margin-bottom: -5em;
+  margin-bottom: -3rem;
   font-size: 0.9em;
   line-height: 1.8em;
   font-weight: 500;
